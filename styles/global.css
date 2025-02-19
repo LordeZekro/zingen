@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-gradient: linear-gradient(90deg, #fc4a1a 0%, #f7b733 100%);
+  --brand-color-primary: #f7b733;
+  --brand-color-secondary: #fc4a1a;
+
+  --background-color: #101010;
+  --surface-color: #101010;
+  --stroke-color: #252525;
+
+  --text-secondary: #a1a1aa;
+  --text-primary: #f4f4f5;
+
+  --font-family: "Inter", sans-serif;
+  --text-h1: extrabold;
+}
