@@ -32,12 +32,10 @@ div {
   color: var(--btn-color);
 }
 
-.btn.secondary {
-}
-
 .btn-sm {
   padding: 0.5rem 1rem;
   font-size: var(--font-s-sm);
+  font-weight: 600;
 }
 
 .btn-md {
