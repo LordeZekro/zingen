@@ -19,10 +19,6 @@
   color: var(--btn-color);
 }
 
-div {
-  margin-bottom: 1rem;
-}
-
 .btn:hover {
   --btn-bg-color: var(--brand-gradient);
   --btn-color: var(--surface-color);
@@ -56,7 +52,7 @@ div {
     position: absolute;
     border-radius: inherit;
     inset: 1.5px;
-    background-color: var(--bg-color);
+    background-color: var(--surface-color);
   }
 
   &::after {
