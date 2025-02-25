@@ -3,6 +3,7 @@
 
   & img[src*="music"] {
     width: 12.875rem;
+    pointer-events: none;
   }
 
   & h1 {
