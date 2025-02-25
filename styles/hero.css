@@ -24,8 +24,14 @@
 
 @media (width >= 80em) {
   #hero {
-    background: url(../assets/background/bg-hero-desktop.svg) no-repeat bottom
-      center/contain;
+    background: 
+    linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0) 40%,
+        rgb(0, 0, 0) 60%
+      ),
+      url(../assets/background/bg-hero-desktop.svg) no-repeat bottom
+        center/contain;
     padding-bottom: 15rem;
 
     & img[src*="music"] {

@@ -1,6 +1,8 @@
 *,
 *::before,
 *::after {
+  overflow-x: hidden;
+
   box-sizing: border-box;
 }
 
@@ -52,6 +54,8 @@ html {
   color: var(--text-primary);
 
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 h1,

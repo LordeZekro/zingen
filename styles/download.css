@@ -22,6 +22,13 @@
 
     & img {
       max-width: var(--download-button-size);
+      outline: 1px solid transparent;
+      border-radius: .5rem;
+    }
+    & img:hover {
+      transition: 200ms;
+      outline: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: .5rem;
     }
   }
 }
@@ -34,11 +41,11 @@
       padding: 8rem 5rem;
 
       & > div:nth-child(1) {
-        max-width: 40rem;             
+        max-width: 40rem;
       }
       & > img {
         width: 30rem;
-        filter: drop-shadow(3rem 4rem 4rem rgba(0,0,0,1));
+        filter: drop-shadow(3rem 4rem 4rem rgba(0, 0, 0, 1));
       }
     }
   }
